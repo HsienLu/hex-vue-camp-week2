@@ -3,5 +3,6 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:'/hex-vue-camp-week2/',
   plugins: [vue()],
 })
